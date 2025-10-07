@@ -484,14 +484,14 @@
 
 
         <!-- Arrival & Offers -->
-        <section class="mt-12 md:mt-32 md:container mx-auto">
+        <section class="mt-12 md:mt-32 mb-96 md:mb-32 md:container mx-auto">
 
             <h1 class="text-accent text-4xl font-semibold ml-4 md:ml-0">
                 Arrival & Offers
             </h1>
 
             <!-- card -->
-            <div class="mt-9 flex flex-col lg:flex-row gap-5">
+            <div class="mt-9 flex flex-col lg:flex-row gap-5 mb-12 md:mb-32">
 
                 <!-- card 1 -->
                 <div class="card card-side shadow-sm lg:w-3/5 bg-[#115414] pt-5 mx-4 lg:mx-0">
@@ -502,7 +502,7 @@
                         <img src="c2-assets/dawat-logo.png" alt="" class="w-3/6">
 
                         <button
-                            class="bg-[#63B76D] text-white md:px-8 px-0 py-3.5 md:w-fit mt-8 text-2xl rounded-lg">Cook
+                            class="bg-[#63B76D] text-white md:px-8 px-0 py-3.5 md:w-fit mt-8 md:text-2xl text-base rounded-lg">Cook
                             Exotic
                             Dishes</button>
 
@@ -510,7 +510,8 @@
 
 
 
-                        <h2 class="text-4xl text-white mt-6">UP to <span class="font-semibold">20% OFF</span>
+                        <h2 class="md:text-4xl text-base
+                         text-white mt-6">UP to <span class="font-semibold">20% OFF</span>
                         </h2>
 
 
@@ -540,14 +541,14 @@
                         <img src="c2-assets/india-gate-logo.png" alt="" class="w-2/6 mt-0 pt-0">
 
                         <button
-                            class="bg-[#2A4D97] text-white lg:px-4 px-0 py-3.5 md:w-fit w-4/6   text-2xl rounded-lg mb-4">World’s
+                            class="bg-[#2A4D97] text-white lg:px-4 px-0 py-3.5 md:w-fit w-4/6   md:text-2xl text-base rounded-lg mb-4">World’s
                             No.1 Rice</button>
 
 
 
 
 
-                        <h2 class="text-4xl text-white ">UP to <span class="font-semibold">40% OFF</span>
+                        <h2 class="md:text-4xl text-base text-white ">UP to <span class="font-semibold">40% OFF</span>
                         </h2>
 
 
@@ -584,26 +585,40 @@
 
     </main>
 
-    <footer class="bg-accent mt-80 pt-80 pb-10 lg:pb-36">
+    <footer class="bg-accent mt-80 md:pt-40 pt-20 pb-10 lg:pb-36">
 
 
         <!-- Get Grocery News! -->
+
+
         <section>
 
-            <div class="hero bg-barret md:container mx-auto py-12 px-28 rounded-xl absolute bottom-4/6 left-44">
-                <div class="hero-content flex-col lg:flex-row gap-32">
+
+
+
+            <div class=" bg-barret md:container mx-4 md:mx-auto py-12 lg:px-20 rounded-xl md:-mt-96 -mt-96 px-2">
+
+
+
+
+
+
+
+                <div class="flex
+                flex-col lg:flex-row md:gap-32
+                gap-12 items-center">
 
 
                     <div>
-                        <img src="c2-assets/vegetable-busket.png" class="rounded-lg shadow-2xl" />
+                        <img src="c2-assets/vegetable-busket.png" class="rounded-lg " />
                     </div>
 
-                    <div>
+                    <div class="text-center lg:text-start">
                         <h1 class="text-4xl font-semibold mb-5">Get Grocery News!</h1>
 
                         <p class="text-xl mb-8">Exclusive training tips, ticks, product deals and more.</p>
 
-                        <input type="email" placeholder="Enter email...." class="input input-xl w-5/6 mb-8 p-8" /> <br>
+                        <input type="email" placeholder="Enter email...." class="input input-xl w-full mb-8 p-8" /> <br>
 
                         <button class="px-8 py-3 bg-accent text-white rounded-lg">Subscribe</button>
 
@@ -623,7 +638,7 @@
         <!-- footer -->
 
         <div
-            class="text-white md:container mx-4 md:mx-auto flex flex-col lg:flex-row lg:items-center gap-11 justify-between">
+            class="text-white md:container mx-4 md:mx-auto flex flex-col lg:flex-row lg:items-center gap-11 justify-between mt-14 lg:mt-32">
 
             <!-- first col -->
 
@@ -661,6 +676,7 @@
                     <i class="fa-brands fa-youtube"></i>
                 </div>
             </div>
+
         </div>
 
     </footer>
